@@ -1,0 +1,12 @@
+spring:  
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native: 
+          searchLocations: file:C:\\Users\\adaraj\\Desktop\\Adarsh\\Test2
+      username: test
+      password: test
+server:
+ port: 8888
